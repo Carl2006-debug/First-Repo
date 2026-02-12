@@ -4,7 +4,7 @@ overflow: hidden;
 }
 .card {
 /* Add shadows to create the "card" effect */
-border: 3px solid teal;
+border: 3px solid rgb(2, 124, 124);
 border-radius: 5px;
 width: 70%;
 margin: 3% auto;
