@@ -18,11 +18,12 @@ font-weight: 700;
 border-bottom: 2px solid rgb(192, 192, 192);
 text-align: center;
 }
-.card-body{padding:5%;}
+.card-body{padding:5%;
+text-align: center;
+}
 /* On mouse-over, add a deeper shadow */
 .card:hover {
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-text-align: center;
 }
 
 .nav {
