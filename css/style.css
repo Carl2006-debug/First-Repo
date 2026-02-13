@@ -1,28 +1,28 @@
 .page-content{
-padding-top:30px;
-overflow: hidden;
+    padding-top:30px;
+    overflow: hidden;
 }
 .card {
-/* Add shadows to create the "card" effect */
-border: 3px solid rgb(2, 124, 124);
-border-radius: 5px;
-width: 70%;
-margin: 3% auto;
-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-transition: 0.3s;
+    /* Add shadows to create the "card" effect */
+    border: 3px solid rgb(2, 124, 124);
+    border-radius: 5px;
+    width: 70%;
+    margin: 3% auto;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 .card-header{
-padding:1%;
-font-size: 20px;
-font-weight: 700;
-border-bottom: 2px solid rgb(192, 192, 192);
-text-align: center;
+    padding:1%;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    text-align: center;
 }
 .card-body{padding:5%;
-text-align: center;
+    text-align: center;
 }
 .card:hover {
-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
 }
 
 .nav {
@@ -39,17 +39,24 @@ box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
     color: white
 }
 .nav{
-background-color: teal;
-list-style-type: none;
-text-align: center;
+    background-color: teal;
+    list-style-type: none;
+    text-align: center;
 }
 
 .profile-image{
-text-align: center;
+    text-align: center;
 }
 
 .footer{
-text-align: center;
+    text-align: center;
+}
+
+.circle-img {
+    width: 200px;  
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 
 
