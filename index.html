@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CV Webpage</title>
+    <script>
+        alert("Hello Carl! I am an alert box.");
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/resets.css">
@@ -30,7 +33,7 @@
 <div class="page-content">
     <div class="card" id="about">
         <p class="card-header">About</p>
-        <p class="card-body">
+        <p id="para1" class="card-body">
         Lived in Cagayan de Oro City, Philippines. Passionate about technology and web development.<br>
         Enjoys learning new programming languages and frameworks. Always eager to take on new challenges and expand my skill set.<br>
         </p>
@@ -38,7 +41,7 @@
 
     <div class="card" id="education">
         <p class="card-header">Education</p>
-        <p class="card-body">
+        <p id="para2" class="card-body">
         <strong>Junior High:</strong> Misamis Oriental General Comprehensive High School<br>
         <strong>Senior High:</strong> College of Cagayan De Oro<br>
         <strong>College:</strong> University of Science and Technology of Southern Philippines
@@ -47,7 +50,7 @@
 
     <div class="card" id="skills">
         <p class="card-header">Skills</p>
-        <p class="card-body">
+        <p id="para3" class="card-body">
         <strong>Programming Languages:</strong> Python, Java, C++<br>
         <strong>Web Development:</strong> HTML, CSS, JavaScript<br>
         <strong>Database Management:</strong> MySQL, MongoDB<br>
@@ -57,7 +60,7 @@
 
     <div class="card" id="portfolio">
         <p class="card-header">Portfolio</p>
-        <p class="card-body">
+        <p id="para4" class="card-body">
         <strong>Online CV Website:</strong> <a href="file:///C:/Users/Acer/OneDrive/Git/First-Repo/index.html">https://carlgibson.github.io/Online-CV/</a><br>
         <strong>Personal Blog:</strong> <a href="https://carlgibson.github.io/Personal-Blog/">https://carlgibson.github.io/Personal-Blog/</a><br>
         </p>
@@ -65,7 +68,7 @@
 
     <div class="card" id="contact">
         <p class="card-header">Contact</p>
-        <p class="card-body">
+        <p id="para5" class="card-body">
         <strong>Email:</strong>sabal.carlgibson@gmail.com<br>
         <strong>Phone:</strong> +63 912 345 6789<br>    
         </p>
@@ -76,5 +79,17 @@
 <footer class="footer">
     classOnline CV
 </footer>
+    <script>
+        const paragraph1 = document.getElementById("para1")
+        const paragraph2 = document.getElementById("para2")
+        const paragraph3 = document.getElementById("para3")
+        const paragraph4 = document.getElementById("para4")
+        const paragraph5 = document.getElementById("para5")
+        console.log(paragraph1);
+        console.log(paragraph2);
+        console.log(paragraph3);
+        console.log(paragraph4);
+        console.log(paragraph5);
+    </script>
     </body>
 </html>
