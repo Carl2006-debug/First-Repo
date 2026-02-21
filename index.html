@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/resets.css">
     <script src="script.js"></script>
 </head>
-  <body>
+  <body style="font-family: Arial, sans-serif; font-size: 13px;">
     <header>
         <nav>
           <ul class="nav">
@@ -21,7 +21,7 @@
               <li><a href="#education">Education </a></li>
               <li><a href="#skills">Skills </a></li>
               <li><a href="#portfolio">Portfolio </a></li>      
-              <li><a href="#contact">Contact </a></li>
+              <li><a href="#contacts">Contacts </a></li>
               <li><a href="#courses">Courses </a></li>
           </ul>
         </nav>
@@ -69,14 +69,16 @@
         </p>
     </div>
 
-    <div class="card" id="contact">
-        <p class="card-header">Contact</p>
+    <div class="card" id="contacts">
+        <p class="card-header">Contacts</p>
         <p id="para5" class="card-body">
         <strong>Email:</strong>sabal.carlgibson@gmail.com<br>
         <strong>Phone:</strong> +63 912 345 6789<br>    
         </p>
     </div>
 
+    <input type="text" id="searchBar" placeholder="Search...">
+    <button onclick="searchFunction()">🔍</button>
     <div class="card" id="courses">
         <p class="card-header">Courses Taken</p>
         <ul id="courses" class="card-body"></ul>
@@ -100,7 +102,7 @@
 
 <hr>
 <footer class="footer">
-    classOnline CV
+<strong>CV Webpage</strong>
 </footer>
     </body>
 </html>
