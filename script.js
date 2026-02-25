@@ -19,15 +19,15 @@ fetch(jsonURL)
     .catch(error => console.error("Error fetching JSON:", error));
 
 
-  function searchFunction() {
-  const input = document.getElementById('searchBar').value.toLowerCase();
-  const items = document.querySelectorAll('#courses li');
+    function searchFunction() {
+    const input = document.getElementById('searchBar').value.toLowerCase();
+    const items = document.querySelectorAll('#courses li');
 
-  items.forEach(item => {
-    if (item.textContent.toLowerCase().includes(input)) {
-      item.style.display = ''; // show
-    } else {
-      item.style.display = 'none'; // hide
+    items.forEach(item => {
+        if (item.textContent.toLowerCase().includes(input)) {
+          item.style.display = ''; // show
+        } else {
+          item.style.display = 'none'; // hide
+        }
+      });
     }
-  });
-}

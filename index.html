@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="css/resets.css">
     <script src="script.js"></script>
 </head>
-  <body style="font-family: Arial, sans-serif; font-size: 13px;">
+  <body>
     <header>
-        <nav>
+        <nav>   
           <ul class="nav">
               <li><a href="#about">About </a></li>
               <li><a href="#education">Education </a></li>
@@ -36,8 +36,9 @@
     <div class="card" id="about">
         <p class="card-header">About</p>
         <p id="para1" class="card-body">
-        Lived in Cagayan de Oro City, Philippines. Passionate about technology and web development.<br>
-        Enjoys learning new programming languages and frameworks. Always eager to take on new challenges and expand my skill set.<br>
+        I lived in Zone 7 Acacia Carmen Ext. Cagayan de Oro City, Philippines. <br>
+        I am a 2nd year college student at the University of Science and Technology of Southern Philippines, taking up Bachelor of Science in Information Technology. <br>  
+        Passionate about technology and web development. Enjoys learning new programming languages and frameworks. Always eager to take on new challenges and expand my skill set.
         </p>
     </div>
 
@@ -55,7 +56,7 @@
         <p id="para3" class="card-body">
         <strong>Programming Languages:</strong> Python, Java, C#<br>
         <strong>Web Development:</strong> HTML, CSS, JavaScript<br>
-        <strong>Database Management:</strong> MySQL, MongoDB<br>
+        <strong>Database Management:</strong> MySQL<br>
         <strong>Version Control:</strong> Git<br>
         </p>
     </div>
@@ -66,19 +67,25 @@
         Car Wash System<br>
         Water Billing System<br>
         CRUD System<br>
+        CV Webpage<br>
+        Online Ticket Booking System
         </p>
     </div>
 
     <div class="card" id="contacts">
         <p class="card-header">Contacts</p>
         <p id="para5" class="card-body">
-        <strong>Email:</strong>sabal.carlgibson@gmail.com<br>
-        <strong>Phone:</strong> +63 912 345 6789<br>    
+        <strong>Email: </strong>sabal.carlgibson@gmail.com<br>
+        <strong>Phone: </strong> +63 910 559 6442<br>    
+        <strong>Facebook: </strong><a href="https://www.facebook.com/cg.sabal/directory_links">CG Sabal</a><br>
         </p>
+    </div>  
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search Courses...">
+        <button onclick="searchFunction()">🔎</button>
     </div>
 
-    <input type="text" id="searchBar" placeholder="Search...">
-    <button onclick="searchFunction()">🔍</button>
     <div class="card" id="courses">
         <p class="card-header">Courses</p>
         <ul id="courses" class="card-body"></ul>
