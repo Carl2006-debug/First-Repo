@@ -25,13 +25,15 @@
     z-index: 10;
     margin: 0;
     top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
 }
 .card-body{
     padding:5%;
     text-align: center;
     margin: 9px;
     font-family: 'Arial', sans-serif; 
-    font-size: 13px;
+    font-size: 12px;
 }
 .card:hover {
     transform: translateY(-10px);
@@ -45,6 +47,8 @@
     list-style-type: none;
     margin: 0;
     top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
 }
 .nav li {
     display: inline-block;
