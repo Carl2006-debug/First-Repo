@@ -83,13 +83,13 @@
 
             <div class="search">
                 <input type="text" id="searchBar" placeholder="Search Courses...">
-                <button id="myBtn" onclick="searchFunction()">⌕</button>
+                <button id="searchBtn" onclick="searchFunction()">⌕</button>
                 <script>
                     var input = document.getElementById("searchBar");
                     input.addEventListener("keypress", function(event) {
                     if (event.key === "Enter") {
                         event.preventDefault();
-                        document.getElementById("myBtn").click();
+                        document.getElementById("searchBtn").click();
                     }
                     });
                 </script>
