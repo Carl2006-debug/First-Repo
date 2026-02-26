@@ -48,6 +48,7 @@
     top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px; 
+    text-align: center;
 }
 .nav li {
     display: inline-block;
@@ -58,10 +59,8 @@
     text-decoration: none;
     color: white
 }
-.nav{
-    background-color: teal;
-    list-style-type: none;
-    text-align: center;
+.nav li a:hover {
+    color: aqua;
 }
 
 .profile-image{
@@ -69,7 +68,6 @@
     margin-bottom: 10px; 
     padding-top: 20px;
 }
-
 .circle-img {
     width: 200px;  
     height: 200px;
