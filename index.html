@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CV Webpage</title>
-    <script>
-        alert("Hello Carl! I am an alert box.");
-    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/resets.css">
@@ -81,13 +78,15 @@
         </p>
     </div>  
 
-    <div class="search-container">
-        <input type="text" id="searchBar" placeholder="Search Courses...">
-        <button onclick="searchFunction()">🔎</button>
-    </div>
-
     <div class="card" id="courses">
-        <p class="card-header">Courses</p>
+        <div class="card-header">Courses
+
+            <div class="search">
+                <input type="text" id="searchBar" placeholder="Search Courses...">
+                <button onclick="searchFunction()">⌕</button>
+            </div>
+        </div>
+
         <ul id="courses" class="card-body"></ul>
     </div>
 </div>
@@ -108,8 +107,8 @@
 </script>
 
 <hr>
-<footer class="footer">
-<strong>CV Webpage</strong>
-</footer>
-    </body>
+    <footer class="footer">
+        <strong>CV Webpage</strong>
+    </footer>
+  </body>
 </html>
