@@ -60,7 +60,9 @@
     color: white
 }
 .nav li a:hover {
-    color: aqua;
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+    transform: translateY(4px);
 }
 
 .profile-image{
