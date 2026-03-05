@@ -61,8 +61,8 @@
 }
 .nav li a:hover {
     display: inline-block; 
-    transition: transform 0.3s ease; 
-    transform: translateY(4px);
+    transition: 100ms;
+    transform: scale(1.2);
 }
 
 .profile-image{
@@ -123,7 +123,7 @@
     top: 9px;
     font-family: 'Arial', sans-serif; 
     font-size: 13px;
-    width: 150px;
+    width: 170px;
 }
 
 #searchBar {
@@ -133,9 +133,9 @@
     border: 1px solid white;
 }
 
-.search button {
+#searchBtn{
     position: absolute;
-    left: 137px;
+    left: 152px;
     top: 0%;
     border: none;
     background: transparent;
@@ -148,11 +148,11 @@
 #clearBtn{
     position: absolute;
     left: 110px;
-    top: 0%;
+    top: 22%;
     border: none;
     background: transparent;
     cursor: pointer;
-    font-size: 25px;
-    color: rgb(229, 235, 235);
+    font-size: 13px;
+    color: rgb(170, 184, 184);
 }
 
