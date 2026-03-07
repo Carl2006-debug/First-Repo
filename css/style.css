@@ -127,15 +127,15 @@
 }
 
 #searchBar {
-    width: 85%;
-    padding: 8px 35px 8px 10px; /* space for button */
+    width: 140px;
+    padding: 9px 50px 8px 11px; /* space for buttons "padding: top right bottom left;" */
     border-radius: 20px;
     border: 1px solid white;
 }
 
 #searchBtn{
     position: absolute;
-    left: 152px;
+    left: 166px;
     top: 0%;
     border: none;
     background: transparent;
@@ -147,12 +147,13 @@
 
 #clearBtn{
     position: absolute;
-    left: 110px;
-    top: 22%;
+    left: 149px;
+    top: 25%;
     border: none;
     background: transparent;
     cursor: pointer;
     font-size: 13px;
     color: rgb(170, 184, 184);
+    display: none;
 }
 

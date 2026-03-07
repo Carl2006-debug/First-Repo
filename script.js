@@ -21,12 +21,35 @@ fetch(jsonURL)
     function searchFunction() {
     const input = document.getElementById('searchBar').value.toLowerCase();
     const items = document.querySelectorAll('#courses li');
+    
 
     items.forEach(item => {
         if (item.textContent.toLowerCase().includes(input)) {
-          item.style.display = ''; // show
+          item.style.display = ''; // show all
         } else {
           item.style.display = 'none'; // hide
         }
       });
     }
+
+    function clearSearch() {
+    const clearBtn = document.getElementById('clearBtn');
+
+        searchBar.value = '';
+        clearBtn.style.display = 'none';
+
+        const items = document.querySelectorAll('#courses li');
+        items.forEach(item => {
+            item.style.display = ''; // show all
+    });
+}
+    function toggleclearBtn() {
+        const clearBtn = document.getElementById('clearBtn');
+
+        if (searchBar.value.trim() !== '') {
+            clearBtn.style.display = 'inline-block'; // show button
+        } else {
+            clearBtn.style.display = 'none'; // hide button
+        }
+    }
+
