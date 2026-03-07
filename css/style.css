@@ -136,7 +136,7 @@
 #searchBtn{
     position: absolute;
     left: 166px;
-    top: 0%;
+    bottom: 7%;
     border: none;
     background: transparent;
     cursor: pointer;
